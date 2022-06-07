@@ -25,7 +25,7 @@
 			</div>
 			<h3>POSNETKI ZASLONA</h3>
 			<div class="apidiv">
-			<img class="api" src="slike/API.png"/>
+			<img class="api" src="slike/posnetkiZaslona.png"/>
 			</div>
 		</div>
 	</body>
