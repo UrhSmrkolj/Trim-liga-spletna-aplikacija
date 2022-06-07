@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="center">
-			<?php include"Meni.php"?>
+			<?php include 'Meni.php'; ?>
 			<h2>Stran za ligaške administratorje.</h2>
 			<p>Na tej strani je na kratko predstavljen projekt trim liga. Na spletnem administratorskem vmesniku lahko
 			ligaški aministratorji strbijo za ažurnost podatkov (klubske točke, igralčevi goli...), urejajo igralčeve podatke
@@ -21,7 +21,7 @@
 			</div><br>
 			<h3>ARHITEKTURA</h3>
 			<div class="apidiv">
-			<img class="api" src="slike/API.png"/>
+			<img class="api" src="slike/arhitektura.png"/>
 			</div>
 			<h3>POSNETKI ZASLONA</h3>
 			<div class="apidiv">
