@@ -213,7 +213,7 @@ function dodajGol(ele) {
 				};
 				
 				const data = '{"gol": '+ goli + '}';
-				httpRequest.open("PUT", "ligaAPI/fuzbaler_gol/"+ID, true);
+				httpRequest.open("PUT", "ligaAPI/igralci_gol/"+ID, true);
 				httpRequest.send(data);
 				//document. location. reload();
 			}
@@ -260,7 +260,7 @@ function dodajKarton(ele) {
 				};
 				
 				const data = '{"karton": '+ kartoni + '}';
-				httpRequest.open("PUT", "ligaAPI/fuzbaler_karton/"+ID, true);
+				httpRequest.open("PUT", "ligaAPI/igralci_karton/"+ID, true);
 				httpRequest.send(data);
 				//document. location. reload();
 			}

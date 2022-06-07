@@ -1,0 +1,43 @@
+RewriteEngine On 				# Vklopi 'rewriting engine'
+
+RewriteRule ^igralci/?$ igralci.php [NC,L]						
+RewriteRule ^igralci/(.+)/?$ igralci.php?ID=$1 [NC,L] 	
+
+RewriteRule ^klub_igralci/?$ klub_igralci.php [NC,L]					
+RewriteRule ^klub_igralci/(.+)/?$ klub_igralci.php?klub=$1 [NC,L]
+
+RewriteRule ^klub_goli/?$ klub_goli.php [NC,L]					
+RewriteRule ^klub_goli/(.+)/?$ klub_goli.php?klub=$1 [NC,L] 	
+
+RewriteRule ^lestvica_liga/?$ lestvica_liga.php [NC,L]					
+RewriteRule ^lestvica_liga/(.+)/?$ lestvica_liga.php?liga=$1 [NC,L] 	
+
+RewriteRule ^lestvica_strelci/?$ lestvica_strelci.php [NC,L]					
+RewriteRule ^lestvica_strelci/(.+)/?$ lestvica_strelci.php?liga=$1 [NC,L] 
+
+RewriteRule ^zmaga/?$ zmaga.php [NC,L]					
+RewriteRule ^zmaga/(.+)/?$ zmaga.php?klub=$1 [NC,L]	
+
+RewriteRule ^remi/?$ remi.php [NC,L]					
+RewriteRule ^remi/(.+)/?$ remi.php?klub=$1 [NC,L]
+
+RewriteRule ^igralci_gol/?$ igralci_gol.php [NC,L]					
+RewriteRule ^igralci_gol/(.+)/?$ igralci_gol.php?ID=$1 [NC,L]
+
+RewriteRule ^igralci_karton/?$ igralci_karton.php [NC,L]					
+RewriteRule ^igralci_karton/(.+)/?$ igralci_karton.php?ID=$1 [NC,L]
+
+RewriteRule ^login/?$ login.php [NC,L]
+
+RewriteRule ^klubi/?$ klubi.php [NC,L]					
+RewriteRule ^klubi/(.+)/?$ klubi.php?liga=$1 [NC,L] 					
+
+RewriteRule ^prijava/?$ prijava.php [NC,L]					
+	
+
+
+# Onemogočimo direkten dostop do orodja.php
+<Files orodja.php>
+Order allow,deny
+Deny from all
+</Files>
