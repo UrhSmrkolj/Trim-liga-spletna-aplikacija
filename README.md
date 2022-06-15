@@ -1,5 +1,8 @@
 # Trim-liga-spletna-aplikacija-
 
+## Prikaz delovanja
+#### https://unilj-my.sharepoint.com/:v:/g/personal/us2948_student_uni-lj_si/EQAjG7ebsBFJmed2_-gp1RQBEirAMSHA-CgHIu50HD_AlA?e=Edbj8c
+
 ## Issue
 
 Prijava včasih ne deluje na brskalniku Firefox. Svetujem uporabo Google Chrome, Opera ali Edge.
